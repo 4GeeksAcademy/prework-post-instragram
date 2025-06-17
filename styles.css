@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.container {
+    
+    background-color: aliceblue;
+    width: 25%;
+    height: 700px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    display: flex;
+    gap:12px;
+    width: 30%;
+    height: 5%;
+    margin: 15px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    font-weight: bold;
+    font: size 10px;
+
+}
+
+.header-menu{
+    font-size: 2em;
+    cursor: pointer;
+    height: 5%;
+    margin:15px
+    
+}
+
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(166, 165, 165);
+}
+.main-image{
+    display: flex;
+    width:50%;
+    height: 50%;
+}
+
+.container-iconos{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+    
+}
+
+.iconos-left{
+    
+    display: flex;
+    width:200px;
+    height: 30px;
+    gap: 15px;
+    margin-left: 10px;
+    
+}
+
+#like{
+    cursor: pointer;
+    
+}
+
+#enviar{
+    cursor: pointer;
+}
+
+#chat{
+    cursor: pointer;
+}
+
+#guardar{
+    cursor: pointer;
+}
+
+.iconos-right{
+    
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.container-parrafo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+p{
+    display: flex;
+    width: 90%;
+    font-size: 17px;
+    margin-left: 10px;
+    
+}
+
+
